@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do diamante perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="floresta.jpeg" alt="">
+            <p>Em um dia Maria estava limpando a estante antiga em um porão quando ela achou um jogo e começou a jogar</p>
+            <button class="btn-proximo" data-proximo="1">trilha na floresta</button>
+            <button class="btn-proximo" data-proximo="3">trilha do rio</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada na trilha da floresta, subindo foi a procura da primeira pista.</p>
+            <button class="btn-proximo" data-proximo="2">Procurar a pista nas flores ao lado</button>
+            <button class="btn-proximo" data-proximo="3">subir no monte</button>
+            </div>
+
+            <div class="passo" id="passo-2">
+                <p>encontramos a pista e conseguimos passar de nível, entramos na cidade de doces.</p>
+                <button class="btn-proximo" data-proximo="4">ir procurar a pista na cachoeira de chocolate?</button>
+                <button class="btn-proximo" data-proximo="3">correr a montanha próxima</button>
+            </div>
+
+            <div class="passo" id="passo-3">
+                <p>infelizmente não foi dessa vez, boa sorte na próxima</p>
+                <button class="btn-proximo" data-proximo="0">voltar ao ínicio</button>
+                <button class="btn-proximo" data-proximo="0">desistir</button>
+            </div>
+
+
+            <div class="passo" id="passo-4">
+                <p>Maria foi em direção a cachoeira.</p>
+                <button class="btn-proximo" data-proximo="5">encontramos a pista debaixo da cachoeira e passamos para penúltima fase</button>
+                <button class="btn-proximo" data-proximo="3">segur a placa cuidado a direita!</button>
+            </div>
+
+            <div class="passo" id="passo-5">
+                <p>Maria foi em direção a cachoeira.entramos no jardim dos únicornios, um deles entregou uma papel com enigma(há um pato entre 2 patos, um pato atrás de um pato e um pato na frente de outro pato.de quantos patos estamos falando?)</p>
+                <button class="btn-proximo" data-proximo="6">3 patos</button>
+                <button class="btn-proximo" data-proximo="3">4 patos</button>
+            </div>
+
+            <div class="passo" id="passo-6">
+              <img src="fundo-de-jogo-noturno-de-pixel-art-com-ceu-de-grama-e-voce-ganhou-o-jogo-texto-de-8-bits-pixel-da-tela-do-jogo_148553-710.avif" alt="">
+                <p>muito bem, por chegar no fim do jogo com sua ajuda maria conseguiu voltar a sua vida real.</p>
+        
+                <button class="btn-proximo" data-proximo="0">Jogar Novamente </button>
+            </div>
+            
+            
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
